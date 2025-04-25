@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>problem 10</title>
+  <link rel="stylesheet" href="style6.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="scroll-content">
+        <h2 style="color: #f1c40f; font-family: 'Fira Code', monospace; font-size: 24px; margin-bottom: 10px;">10. Minimum Jumps to Reach the End</h2>  
+          <p>You are given a 0-indexed integer array nums of length n. Initially, you start at nums[0].
+  Each element nums[i] indicates the maximum number of steps you can jump forward from index i. Specifically, if you are at index i, you can jump to any index i + j where:
+  0 <= j <= nums[i]
+ i + j < n
+ Your task is to determine the minimum number of jumps needed to reach nums[n - 1]. The test cases are constructed in such a way that reaching the last index is always possible.</p>
+<P>Example 1:
+  Input: nums = [2, 3, 1, 1, 4]
+  
+  Output: 2
+  
+  Explanation: To reach the last index, you can jump:
+  
+  From index 0 to index 1 (1 step).
+  
+  Then from index 1 to index 4 (3 steps), reaching the last index.</P>      
+</div>
+    </div>
+
+    <!-- 🔧 Add the splitter element -->
+    <div class="splitter"></div>
+
+    <div class="right-panel">
+      <div class="language-tabs">
+        <button onclick="showCode('c', 'c')">C</button>
+        <button onclick="showCode('cpp', 'cpp')">C++</button>
+        <button onclick="showCode('chash', 'csharp')">C#</button>
+        <button onclick="showCode('java', 'java')">Java</button>
+        <button onclick="showCode('python', 'python')">Python</button>
+        <button onclick="showCode('js', 'javascript')">JavaScript</button>
+        <button onclick="showCode('kotlin', 'kotlin')">Kotlin</button>
+        <button onclick="showCode('go', 'go')">Go</button>
+        <button onclick="showCode('rust', 'rust')">Rust</button>
+      </div>
+      <pre class="code-display"><code id="codeDisplay" class="language-c"></code></pre>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-kotlin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-rust.min.js"></script>
+  <script src="script10.js"></script>
+</body>
+</html>

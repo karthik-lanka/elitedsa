@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>problem 11</title>
+  <link rel="stylesheet" href="style3.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="scroll-content">
+        <h2 style="color: #f1c40f; font-family: 'Fira Code', monospace; font-size: 24px; margin-bottom: 10px;">11. Compute Research Impact Score</h2>  
+        <p>You are given an array of integers called citations, where citations[i] represents the number of citations received for the ith paper of a researcher. You need to return the h-index of the researcher.</p>
+        <p>Example 1:
+          Input: citations = [3,0,6,1,5]
+          
+          Sort the list to get [6, 5, 3, 1, 0].
+          
+          Find the maximum h such that at least h papers have been cited h times or more.
+          
+          In this case, 3 papers have at least 3 citations. Thus, the h-index is 3.
+          
+          Output: 3</p>
+      </div>
+    </div>
+
+    <!-- 🔧 Add the splitter element -->
+    <div class="splitter"></div>
+
+    <div class="right-panel">
+      <div class="language-tabs">
+        <button onclick="showCode('c', 'c')">C</button>
+        <button onclick="showCode('cpp', 'cpp')">C++</button>
+        <button onclick="showCode('chash', 'csharp')">C#</button>
+        <button onclick="showCode('java', 'java')">Java</button>
+        <button onclick="showCode('python', 'python')">Python</button>
+        <button onclick="showCode('js', 'javascript')">JavaScript</button>
+        <button onclick="showCode('kotlin', 'kotlin')">Kotlin</button>
+        <button onclick="showCode('go', 'go')">Go</button>
+        <button onclick="showCode('rust', 'rust')">Rust</button>
+      </div>
+      <pre class="code-display"><code id="codeDisplay" class="language-c"></code></pre>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-kotlin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-rust.min.js"></script>
+  <script src="script11.js"></script>
+</body>
+</html>

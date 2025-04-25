@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>problem 2</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="scroll-content">
+        <h2 style="color: #f1c40f; font-family: 'Fira Code', monospace; font-size: 24px; margin-bottom: 10px;">2. Eliminate Specific Value from Array  
+        </h2>        
+      <p>You are given an array of integers nums and a number val. Your goal is to remove all occurrences of val from the array and return the number of remaining elements that are not equal to val.
+        After removing val, you should modify the array so that the first k elements (where k is the number of remaining elements) contain the values that are not val. The rest of the array doesn't matter.</p>
+ <P>Example 1:
+  Input:
+  nums = [3, 2, 2, 3], val = 3
+  
+  Output:
+  k = 2, nums = [2, 2, _, _] 
+  Explanation:
+  After removing 3, the remaining elements are 2 and 2, so the function returns k = 2. The underscores represent elements that don’t matter.</P>
+           <p>inspiration</p>
+      </div>
+    </div>
+
+    <!-- 🔧 Add the splitter element -->
+    <div class="splitter"></div>
+
+    <div class="right-panel">
+      <div class="language-tabs">
+        <button onclick="showCode('c', 'c')">C</button>
+        <button onclick="showCode('cpp', 'cpp')">C++</button>
+        <button onclick="showCode('chash', 'csharp')">C#</button>
+        <button onclick="showCode('java', 'java')">Java</button>
+        <button onclick="showCode('python', 'python')">Python</button>
+        <button onclick="showCode('js', 'javascript')">JavaScript</button>
+        <button onclick="showCode('kotlin', 'kotlin')">Kotlin</button>
+        <button onclick="showCode('go', 'go')">Go</button>
+        <button onclick="showCode('rust', 'rust')">Rust</button>
+      </div>
+      <pre class="code-display"><code id="codeDisplay" class="language-c"></code></pre>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-kotlin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-rust.min.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>problem 30</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-panel">
+      <div class="scroll-content">
+        <h2 style="color: #f1c40f; font-family: 'Fira Code', monospace; font-size: 24px; margin-bottom: 10px;">30. Shortest Subarray with Target Sum or More          </h2>        
+ <p>You're given:
+
+  An array nums of positive integers
+  
+  A positive integer target
+  
+  Your task is to find the length of the smallest contiguous subarray such that the sum is greater than or equal to target.
+  
+  If no such subarray exists, return 0.
+  
+  Examples:
+  Example 1:
+  
+  plaintext
+  Copy
+  Edit
+  Input: target = 7, nums = [2,3,1,2,4,3]
+  Output: 2
+  
+  Explanation: The subarray [4,3] adds up to 7, which meets the requirement.
+  Its length is 2, which is the shortest possible.
+  Example 2:
+  
+  plaintext
+  Copy
+  Edit
+  Input: target = 4, nums = [1,4,4]
+  Output: 1
+  
+  Explanation: The single-element subarray [4] is valid and minimal.
+  Example 3:
+  
+  plaintext
+  Copy
+  Edit
+  Input: target = 11, nums = [1,1,1,1,1,1,1,1]
+  Output: 0
+  
+  Explanation: No subarray sums to 11 or more.
+  
+           </p>
+
+      </div>
+    </div>
+
+    <!-- 🔧 Add the splitter element -->
+    <div class="splitter"></div>
+
+    <div class="right-panel">
+      <div class="language-tabs">
+        <button onclick="showCode('c', 'c')">C</button>
+        <button onclick="showCode('cpp', 'cpp')">C++</button>
+        <button onclick="showCode('chash', 'csharp')">C#</button>
+        <button onclick="showCode('java', 'java')">Java</button>
+        <button onclick="showCode('python', 'python')">Python</button>
+        <button onclick="showCode('js', 'javascript')">JavaScript</button>
+        <button onclick="showCode('kotlin', 'kotlin')">Kotlin</button>
+        <button onclick="showCode('go', 'go')">Go</button>
+        <button onclick="showCode('rust', 'rust')">Rust</button>
+      </div>
+      <pre class="code-display"><code id="codeDisplay" class="language-c"></code></pre>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-kotlin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-rust.min.js"></script>
+  <script src="script30.js"></script>
+</body>
+</html>
